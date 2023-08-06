@@ -1,20 +1,52 @@
-/.phpunit.cache
-/bootstrap/ssr
-/node_modules
+
 /public/build
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
 .env.backup
 .env.production
-.phpunit.result.cache
+auth.json
+/.fleet
+# Laravel specific files/directories
+/.env
+/node_modules
+/vendor
+/public/storage
+/public/hot
+/storage/*.key
+/storage/*.log
+/bootstrap/cache
+
+# Laravel Mix
+/public/mix-manifest.json
+/public/css/
+/public/js/
+
+# Homestead
 Homestead.json
 Homestead.yaml
-auth.json
+
+# Compiled views and Blade cache
+.phpunit.result.cache
+/nova
+/nova-components
+/nova-metrics
+
+# Miscellaneous
+composer.phar
+composer.lock
 npm-debug.log
 yarn-error.log
-/.fleet
+.env.*
+
+# Artisan cache files
+/bootstrap/cache/*.php
+
+# PHPUnit
+/phpunit.xml
+
+# IDE specific files
 /.idea
 /.vscode
+/.phpstorm.meta.php
+/_ide_helper.php
+
+# SQLite database
+/database/*.sqlite
